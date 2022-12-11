@@ -1,0 +1,144 @@
+.part1{
+    width:100%;
+    height:650px;
+    display:flex;
+}
+
+.card{
+    width:38%;
+    height:530px;
+    background-color:#f1f0f3;
+    border-radius:15px;
+    position:absolute;
+    top:10%;
+    right:47%;
+    align-items: right;
+}
+.card-header{
+    display:flex;
+    height:11%;
+}
+.nav-item:hover{
+    border-bottom:black solid;
+}
+.nav{
+    width:100%;
+}
+.tool{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight:800;
+  font-size:11.5px;
+}
+.card-footer{
+    height:18%;
+    background-color:#193152 !important;
+    border-bottom-left-radius: 10%;
+}
+.nav-link1{
+    width:20%;
+    color:black;
+}
+.lin1,.lin2{
+    display:flex;
+    margin-left:5%;
+}
+.lin1{
+    margin-top:48%;
+}
+.radio1{
+    width:33%;
+    padding:2%;
+    align-content:bottom;
+    margin-bottom:0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight:700;
+}
+.styling{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:900;
+    position:absolute;
+    top:10%;
+    right:33%;
+    letter-spacing:3px;
+    font-size:11.5px;
+    color:rgb(48, 72, 204);
+}
+.heading2{
+   width:350px;
+   position:absolute;
+   top:18%;
+   right:18.5%;
+}
+.head1{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size:170%;
+  letter-spacing: 1px;
+  font-weight:700;
+}
+.heading3{
+    width:400px;
+    position:absolute;
+    top:35%;
+    right:15%;  
+}
+.head2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:14px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.heading4{
+    height:167.9px;
+    width:450.64px;
+    
+    position:absolute;
+    bottom:3%;
+    left:55.5%;
+    display:flex;
+}
+.head3{
+    height:167.9px;
+    width:225.32px;
+    border:black;
+
+}
+.logo1,.logo2,.logo3,.logo4,.buttondiv{
+    display:flex;
+}
+.logo1text{
+    padding-left:10px;
+    padding-top:0px;
+    
+}
+.logolink{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700px;
+    color:black;
+}
+.optionbutton{
+    position: absolute;
+    bottom:34%;
+    right:25%;
+    height:55px;
+    align-items:center;
+    border:3px solid red;
+    border-radius:10%;
+}
+.buttondiv{
+    padding-top:px;
+}
+.optionphoto{
+    padding:20px 10px 20px 30px;
+}
+.buttontext{
+    padding-left: 20px 80px 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:13px;
+    letter-spacing: 1px;
+}
