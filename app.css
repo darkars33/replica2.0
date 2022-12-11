@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.home {
+
+    height: 120vh;
+}
+
+.hero_image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -50%;
+}
+
+.hero_image_r {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -50%;
+}
+
+.firsthead {
+    font-size: 46px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(8, 8, 96);
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.website {
+    color: rgba(228, 187, 36, 0.95);
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(8, 8, 96);
+    font-size: 19.6px;
+}
+
+.button {
+    align-content: center;
+}
+
+.button1 {
+    color: rgb(8, 8, 96);
+    font-size: medium;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 40px;
+    border: rgb(8, 8, 96) solid 2px;
+    border-bottom-width: 7px;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: rgb(184, 190, 194);
+}
+
+.button2 {
+    color: rgb(8, 8, 96);
+    background-color: rgb(227, 202, 45);
+    border-radius: 15px;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 40px 0px;
+    border: rgb(8, 8, 96) solid 2px;
+    border-bottom-width: 7px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: rgb(173, 131, 4);
+}
+
+.ending {
+    position: absolute;
+}
+
+.ending {
+    position: absolute;
+    bottom: -50%;
+}
+
+.earth {
+    height: 30px;
+    width: auto;
+    margin-right: 20px
+}
+
+.rocket {
+    height: 40px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.bu {
+    text-decoration: none;
+    color: rgb(8, 8, 96);
+}
+
+.bu:hover {
+    color: rgb(8, 8, 96);
+}
+.iframe-container{width:60vw;height:500px;margin:40px;border-radius:15px;}
+
+
+@media only screen and (max-width:992px) {
+
+    .hero_image,
+    .hero_image_r {
+        display: none;
+    }
+
+    .home {
+        background-color: white;
+    }
+
+
+}
